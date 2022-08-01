@@ -1,0 +1,196 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+.container {
+  background-color: #d28f87;
+  background: #d28f87;
+  .main-header-row {
+    background-color: #d28f87;
+    background: #d28f87;
+    .row {
+      .columns {
+        .th.large-1 {
+          width: 1%;
+        }
+        img {
+          width: 70px;
+        }
+      }
+    }
+  }
+  .row-3 {
+    background-color: #d28f87;
+    background: #d28f87;
+    h1 {
+      font-size: 50px;
+      text-align: center;
+      color: #6f1718;
+      margin-bottom: 12px;
+    }
+    p {
+      text-align: center;
+      color: #6f1718;
+      font-size: 18px;
+      line-height: 30px;
+      margin-bottom: 30px;
+    }
+  }
+  .buttons-row {
+    margin-bottom: 30px;
+    .button-one {
+      text-align: right;
+    }
+    .button-divider {
+      width: 2% !important;
+    }
+    .button-two {
+      text-align: left;
+    }
+    p {
+      a {
+        color: #6f1718;
+        background-color: #c4807a;
+        background: #c4807a;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .row-5 {
+    background-color: #d28f87;
+    background: #d28f87;
+    .columns {
+      padding-bottom: 50px;
+    }
+    a {
+      color: #6f1718;
+      background-color: #c4807a;
+      background: #c4807a;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 60px;
+      padding-right: 60px;
+      font-size: 16px;
+    }
+  }
+  .row-6 {
+    background-color: #6f1718;
+    background: #6f1718;
+    p {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+      font-size: 16px;
+      color: #ca9088;
+    }
+  }
+  .row-7 {
+    .columns {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .row-8 {
+    background-color: #ffffff;
+    background: #ffffff;
+    .columns {
+      h1 {
+        padding-top: 30px;
+        text-align: center;
+        color: #4d5254;
+        font-size: 50px;
+      }
+      p {
+        text-align: center;
+        color: #4d5254;
+        font-size: 18px;
+        margin-bottom: 60px;
+      }
+      a {
+        background-color: #f5f5f5;
+        background: #f5f5f5;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 60px;
+        padding-right: 60px;
+        text-align: center;
+        color: #4d5254;
+        font-size: 15px;
+      }
+    }
+  }
+}
+.footer {
+  .columns {
+    background-color: #333333;
+    background: #333333;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    width: 100%;
+  }
+  .footer-row-one {
+    .columns {
+      background-color: #232323 !important;
+      background: #232323 !important;
+      border-left: 1px solid #464646;
+      border-right: 1px solid #464646;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      .footer-icon {
+        vertical-align: middle;
+        max-height: 38px;
+        margin-bottom: 15px;
+      }
+
+      p {
+        color: #fffff8;
+        font-size: 16px;
+        text-align: center;
+        vertical-align: middle;
+      }
+    }
+  }
+  .footer-row-two {
+    width: 70%;
+    background-color: #333333;
+    background: #333333;
+    .columns {
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      p {
+        text-align: center;
+        a {
+          color: #cccccc;
+          margin-bottom: 12px;
+        }
+      }
+    }
+    .footer-row-two-bottom {
+      width: 250px;
+      .columns {
+        img {
+          width: 49px;
+          height: 50px;
+        }
+      }
+    }
+  }
+  .footer-row-three {
+    .columns {
+      padding-bottom: 30px;
+      p {
+        text-align: center;
+        color: #cccccc;
+      }
+    }
+  }
+}
